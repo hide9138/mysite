@@ -1,0 +1,535 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F
+}
+.header{
+	width: 1024px;
+	margin: 0 auto;
+}
+.head{
+	height: 70px;
+	width: 140px;
+	float: left;
+	background-image: url(img/logo.png);
+	background-size: cover;
+}
+.menubox{
+	width: 0;
+	height: 0;
+}
+li{
+   list-style: none;
+}
+.list{
+	font-size: 16px;
+	color : #FAFAFA;
+	margin: 0 30px;
+	line-height: 70px;
+	float: right;
+}
+
+
+.Lorem{
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+}
+.Lom{
+	font-size: 64px;
+	padding-top: 200px;
+	color: #FAFAFA;
+	text-align: center;
+}
+.Lommm{
+	font-size: 20px;
+	padding-top: 10px;
+	color: #FAFAFA;
+	text-align: center;
+}
+
+
+.Port{
+	width: 100%;
+	background-color: #ECEFF1;
+
+}
+.Po{
+	width: 920px;
+	margin: 0 auto;
+}
+.Pp{
+	padding-top: 90px;
+	padding-bottom: 8px;
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+}
+.line{
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	margin: 0 auto;
+}
+.Ppp{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+}
+.clearfix::after {
+  content:"";
+  display:block;
+  clear:both;
+}
+.box1{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/sketch.jpg);
+	background-size: 100% 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+.box2{
+	margin: 0 10px;
+	width: 300px;
+	height: 250px;
+	background-image: url(img/websuku.png);
+	background-size: 100% 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+.box3{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/write.jpg);
+	background-size: 100% 100%;
+	float: right;
+	margin-bottom: 10px;
+}
+.box4{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp.png);
+	background-size: 100% 100%;
+	float: left;
+	margin-bottom: 90px;
+}
+.box5{
+	margin: 0 10px;
+	width: 300px;
+	height: 250px;
+	background-image: url(img/talk.jpg);
+	background-size: 100% 100%;
+	float: left;
+	margin-bottom: 90px;
+}
+.box6{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp-mother.png);
+	background-size: 100% 100%;
+	float: right;
+	margin-bottom: 90px;
+}
+
+.Feature{
+	width: 980px;
+	margin: 0 auto;
+}
+.session{
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	margin: 10px 0;
+}
+.icon{
+	font-size: 60px;
+	text-align: center;
+}
+.block{
+	width: 320px;
+	font-size: 16px;
+	color: #000000;
+	float: left;
+	padding-bottom: 90px;
+}
+
+
+.Profile{
+	width: 100%;
+	background-color: #ECEFF1;
+}
+.Pro{
+	width: 1024px;
+	margin: 0 auto;
+}
+.my{
+	width: 512px;
+	text-align: center;
+	float: left;
+	padding-top: 30px;
+	margin-bottom: 90px;
+}
+.myicon{
+  border-radius: 50%;
+}
+.file{
+	float: right;
+	width: 512px;
+	color: #000000;
+	font-size: 16px;
+}
+.myname{
+	padding-top: 30px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+.myskill{
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+
+.contact{
+	width: 800px;
+	margin: 0 auto;
+	color: #000000;
+}
+.body{
+	margin: 30px 0;
+	text-align: center;
+	font-size: 16px;
+}
+.adress{
+	width: 400px;
+	float: left;
+	padding-bottom: 90px;
+}
+.adres{
+	width: 150px;
+	margin: 0 auto;
+}
+.Mail,.Tel{
+	font-size: 20px;
+}
+
+.sns{
+	width: 400px;
+	float: right;
+}
+.snss{
+	width: 200px;
+	margin: 0 auto;
+}
+.snn{
+	padding-left: 15px;
+	font-size: 20px;
+	padding-bottom: 5px;
+
+}
+.social{
+	font-size: 50px;
+	text-align: center;
+}
+.tw{
+	margin: o 20px;
+}
+footer{
+	font-size: 16px;
+	color: #FAFAFA;
+	background-color: #EC715F;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	line-height: 60px;
+}
+
+@media screen and (max-width:767px) {
+	.bb{
+		margin: 0 5%;
+	}
+	header{
+	width: 100%;
+	height: 50px;
+	background-color: #EC715F
+}
+.header{
+	width: 90%;
+	margin: 0 auto;
+}
+.head{
+	height: 50px;
+	width: 100px;
+	float: left;
+	background-image: url(img/logo.png);
+	background-size: cover;
+}
+.menubox{
+	width: 45px;
+	height: 40px;
+	border: 1px solid white;
+	color: white;
+	float: right;
+	margin: 5px 3% 5px 0;
+}
+.hun{
+	background-color: white;
+	width: 30px;
+	height: 2px;
+	margin: 8px auto;
+}
+li{
+}
+.list{
+ width: 0;
+   height: 0;
+   display: none;
+}
+
+
+.Lorem{
+	height: 650px;
+	background-image: url(img/code.png);
+	background-size: cover;
+}
+.Lom{
+	font-size: 40px;
+	padding-top: 200px;
+	color: #FAFAFA;
+	text-align: center;
+}
+.Lommm{
+	font-size: 18px;
+	padding-top: 10px;
+	color: #FAFAFA;
+	text-align: center;
+}
+
+
+.Port{
+	width: 100%;
+	background-color: #ECEFF1;
+
+}
+.Po{
+	width: 90%;
+	margin: 0 auto;
+}
+.Pp{
+	padding-top: 90px;
+	padding-bottom: 8px;
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+}
+.line{
+	height: 3px;
+	width: 70px;
+	background-color: #EC715F;
+	margin: 0 auto;
+}
+.Ppp{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+}
+.clearfix::after {
+  content:"";
+  display:block;
+  clear:both;
+}
+.box1,.box3,.box5{
+	width: 0;
+	height: 0;
+}
+.box2{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/websuku.png);
+	background-size: 100% 100%;
+	float: none;
+	margin-bottom: 10px;
+	margin: 0 auto;
+}
+
+.box4{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp.png);
+	background-size: 100% 100%;
+	float: none;
+	margin-bottom: 10px;
+	margin: 10px auto;
+
+}
+
+.box6{
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp-mother.png);
+	background-size: 100% 100%;
+	float: none;
+	margin: 0 auto 90px;
+}
+
+.Feature{
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+.session{
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	margin: 10px 0;
+}
+.icon{
+	font-size: 60px;
+	text-align: center;
+}
+.block{
+	width: 320px;
+	font-size: 16px;
+	color: #000000;
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+.Profile{
+	width: 100%;
+	background-color: #ECEFF1;
+}
+.Pro{
+	width: 90%;
+	margin: 0 auto;
+}
+.my{
+	width: 250px;
+	margin: 0 auto;
+	float: none;
+	padding-top: 30px;
+}
+.myicon{
+  border-radius: 50%;
+}
+.file{
+	float: none;
+	width: 512px;
+	margin: 0 auto;
+	text-align: center;
+	color: #000000;
+	font-size: 16px;
+	padding-bottom: 90px;
+}
+.myname{
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+.myskill{
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+
+.contact{
+	width: 90%;
+	margin: 0 auto;
+	color: #000000;
+}
+.body{
+	margin: 30px auto;
+	text-align: center;
+	font-size: 16px;
+}
+.adress{
+	width: 400px;
+	margin: 0 auto;
+	float: none;
+	padding-bottom: 20px;
+}
+.adres{
+	width: 400px;
+	text-align: center;
+}
+.Mail,.Tel{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+}
+
+.sns{
+	width: 400px;
+	margin: 0 auto;
+	float: none;
+	padding-bottom: 90px;
+}
+.snss{
+	width: 400px;
+	text-align: center;
+}
+.snn{
+	padding: auto;
+	font-size: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+.social{
+	margin: 0 auto;
+	font-size: 50px;
+	text-align: center;
+}
+.tw{
+	margin: o 8px;
+}
+footer{
+	font-size: 16px;
+	color: #FAFAFA;
+	background-color: #EC715F;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	line-height: 60px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
